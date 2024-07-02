@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HI-AI-Proyección</string>
+    <string name="action_tutorial">Tutorial</string>
+    <string name="action_info">Acerca de...</string>
+    <string name="action_exit">Salir</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+</resources>
