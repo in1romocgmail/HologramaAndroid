@@ -30,19 +30,20 @@ Para compilar y ejecutar esta aplicación, necesitarás:
 ## Instrucciones de Instalación
 
 1. **Clona este repositorio** en tu máquina local:
-   git clone https://github.com/in1romocgmail/HologramaAndroid.git
+```
+    git clone https://github.com/in1romocgmail/HologramaAndroid.git
+```
 
-
-2. **Importa el proyecto en Android Studio**:
+3. **Importa el proyecto en Android Studio**:
    - Abre Android Studio.
    - Selecciona "Import Project" y navega hasta la carpeta donde clonaste el repositorio.
    - Sigue las instrucciones para importar el proyecto correctamente.
 
-3. **Sincroniza y construye el proyecto**:
+4. **Sincroniza y construye el proyecto**:
    - Una vez importado, Android Studio debería sincronizar las dependencias automáticamente. Si no es así, selecciona "Sync Project with Gradle Files".
    - Después de la sincronización, construye el proyecto seleccionando "Build > Make Project".
 
-4. **Ejecuta la aplicación** en un dispositivo o emulador Android:
+5. **Ejecuta la aplicación** en un dispositivo o emulador Android:
    - Conecta tu dispositivo Android o inicia un emulador.
    - Haz clic en el botón "Run" en Android Studio o selecciona "Run > Run 'app'".
 
