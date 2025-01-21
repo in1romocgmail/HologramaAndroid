@@ -50,15 +50,6 @@ Para compilar y ejecutar esta aplicación, necesitarás:
 
 Una vez instalada, la aplicación proporciona una interfaz holográfica que ayuda a los niños a practicar la pronunciación de vocabulario básico en inglés. Para obtener más detalles sobre las funcionalidades y el diseño de la aplicación, se recomienda consultar el artículo mencionado anteriormente.
 
-## Créditos
-
-Esta aplicación fue desarrollada por:
-
-- **R. Cerezo**
-- **V. Calderón**
-- **C. Romero**
-
-
 ## Licencia
 
-Este proyecto está disponible para fines educativos y de investigación. Para más información sobre su uso y distribución, por favor, contacta a los autores del artículo.
+ CC0-1.0 license
