@@ -1,56 +1,70 @@
 
 # HologramaAndroid
 
-Este repositorio contiene el código fuente de una aplicación Android diseñada para ayudar a niños hispanohablantes a practicar la pronunciación de vocabulario básico en inglés mediante una interfaz holográfica.
+This repository contains the source code for an Android application designed to help Spanish-speaking children practice the pronunciation of basic English vocabulary through a holographic interface.
+This application was presented in the paper:
+Cerezo, R., Calderón, V., & Romero, C. (2019). A holographic mobile-based application for practicing pronunciation of basic English vocabulary for Spanish-speaking children. *International Journal of Human-Computer Studies*, 124, 13–25. [https://doi.org/10.1016/j.ijhcs.2018.11.009](https://doi.org/10.1016/j.ijhcs.2018.11.009)
 
-Esta aplicación fue presentada en el artículo académico:
+## Repository Contents
 
-Cerezo, R., Calderón, V., & Romero, C. (2019). A holographic mobile-based application for practicing pronunciation of basic English vocabulary for Spanish speaking children. International Journal of Human-Computer Studies, 124, 13-25. https://doi.org/10.1016/j.ijhcs.2018.11.009
+The repository includes the following main directories and files:
 
-## Contenido del Repositorio
+- `.gradle/`: Gradle configuration files.
+- `.idea/`: Integrated Development Environment (IDE) configuration files.
+- `app/`: Contains the application's source code.
+- `gradle/wrapper/`: Gradle wrapper files for building the project.
+- `build.gradle`: Main Gradle build script.
+- `settings.gradle`: Gradle settings file.
+- `README.md`: This file containing information about the project.
 
-El repositorio incluye los siguientes directorios y archivos principales:
+## Prerequisites
 
-- `.gradle/`: Archivos de configuración de Gradle.
-- `.idea/`: Archivos de configuración del entorno de desarrollo integrado (IDE).
-- `app/`: Contiene el código fuente de la aplicación.
-- `gradle/wrapper/`: Archivos del envoltorio de Gradle para la construcción del proyecto.
-- `build.gradle`: Script de construcción principal de Gradle.
-- `settings.gradle`: Archivo de configuración de Gradle.
-- `README.md`: Este archivo con información sobre el proyecto.
+To compile and run this application, you will need:
 
-## Requisitos Previos
+- **Android Studio**: An Integrated Development Environment (IDE) for Android.
+- **JDK 8 or higher**: Java Development Kit required to compile the code.
+- **Gradle**: Build automation tool used in the project.
 
-Para compilar y ejecutar esta aplicación, necesitarás:
+## Installation Instructions
 
-- **Android Studio**: Un entorno de desarrollo integrado (IDE) para Android.
-- **JDK 8 o superior**: Kit de Desarrollo de Java necesario para compilar el código.
-- **Gradle**: Herramienta de automatización de construcción utilizada en el proyecto.
+1. **Clone this repository to your local machine**:
 
-## Instrucciones de Instalación
+   ```
+   git clone https://github.com/in1romocgmail/HologramaAndroid.git
+   ```
 
-1. **Clona este repositorio** en tu máquina local:
-```
-    git clone https://github.com/in1romocgmail/HologramaAndroid.git
-```
+2. **Import the project into Android Studio**:
 
-3. **Importa el proyecto en Android Studio**:
-   - Abre Android Studio.
-   - Selecciona "Import Project" y navega hasta la carpeta donde clonaste el repositorio.
-   - Sigue las instrucciones para importar el proyecto correctamente.
+   - Open Android Studio.
+   - Select "Import Project" and navigate to the folder where you cloned the repository.
+   - Follow the instructions to import the project correctly.
 
-4. **Sincroniza y construye el proyecto**:
-   - Una vez importado, Android Studio debería sincronizar las dependencias automáticamente. Si no es así, selecciona "Sync Project with Gradle Files".
-   - Después de la sincronización, construye el proyecto seleccionando "Build > Make Project".
+3. **Synchronize and build the project**:
 
-5. **Ejecuta la aplicación** en un dispositivo o emulador Android:
-   - Conecta tu dispositivo Android o inicia un emulador.
-   - Haz clic en el botón "Run" en Android Studio o selecciona "Run > Run 'app'".
+   - Once imported, Android Studio should automatically synchronize the dependencies. If not, select "Sync Project with Gradle Files".
+   - After synchronization, build the project by selecting "Build > Make Project".
 
-## Uso de la Aplicación
+4. **Run the application on an Android device or emulator**:
 
-Una vez instalada, la aplicación proporciona una interfaz holográfica que ayuda a los niños a practicar la pronunciación de vocabulario básico en inglés. Para obtener más detalles sobre las funcionalidades y el diseño de la aplicación, se recomienda consultar el artículo mencionado anteriormente.
+   - Connect your Android device or start an emulator.
+   - Click the "Run" button in Android Studio or select "Run > Run 'app'".
 
-## Licencia
+## Application Usage
 
- CC0-1.0 license
+Once installed, the application provides a holographic interface that helps children practice the pronunciation of basic English vocabulary. For more details on the application's functionalities and design, it is recommended to consult the article mentioned above.
+
+## Reference
+
+Cerezo, R., Calderón, V., & Romero, C. (2019). A holographic mobile-based application for practicing pronunciation of basic English vocabulary for Spanish-speaking children. *International Journal of Human-Computer Studies*, 124, 13–25. [https://doi.org/10.1016/j.ijhcs.2018.11.009](https://doi.org/10.1016/j.ijhcs.2018.11.009)
+
+   ```
+@article{cerezo2019holographic,
+  title={A holographic mobile-based application for practicing pronunciation of basic English vocabulary for Spanish speaking children},
+  author={Cerezo, Rebeca and Calder{\'o}n, Vicente and Romero, Crist{\'o}bal},
+  journal={International Journal of Human-Computer Studies},
+  volume={124},
+  pages={13--25},
+  year={2019},
+  publisher={Elsevier}
+}
+   ```
